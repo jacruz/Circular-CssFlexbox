@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Circular</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="styles/style.css" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container bar-color-off">
+            <a href="*" class="logo"><i class="fa fa-circle"></i> Circular</a>
+        </div>
+        
+        <input class="check-side-menu" type="checkbox" id="check-side-menu"/>
+        <div class="icon-menu-container ">
+            <!-- Hamburguer + checkbox hack (part1)-->
+            <label class="hamb" for="check-side-menu"><span class="hamb-line"></span></label>
+        </div>
+
+        <!-- Menu + checkbox hack (part2) -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#section-art">Servicios</a></li>
+                <li><a href="#section-column-double-full">Equipo</a></li>
+                <li><a href="#section-subscribe">Portafolio</a></li>
+                <li><a href="#section-subscribe">Empleo</a></li>
+                <li><a href="#section-subscribe">Blog</a></li>
+                <li><a class="btn-border" href="#section-subscribe">Solicitar presupuesto</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-content">
+            <h1>Esto es Circular</h1>
+            <p class="header-txt-desc">HTML y CSS puro, enfoque flexbox</p>
+            <div class="header-cta">
+                <a class="cta-btn-border-1" href="#">Ver más</a>
+                <a class="cta-btn-border-2" href="#"><i class="fa fa-toggle-right"></i> Ver video</a>
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <section class="s-services">
+            <h2>Servicios premium</h2>
+            <div class="services-container">
+                <article class="services-card">
+                    <div class="services-card-icon"><i class="fa fa-lightbulb-o"></i></div>
+                    <h3>Consultoría</h3>
+                    <p class="partes-txt-desc">Jaculatoria: Oh María sin pecado concebida, ruega por nosotros que recurrimos a voz</p>
+                </article>
+                <article class="services-card">
+                    <div class="services-card-icon"><i class="fa fa-laptop"></i></div>
+                    <h3>Diseño web</h3>
+                    <p class="partes-txt-desc">Rayos: Por medio de su intercesión nos envía gracias a la tierra</p>
+                </article>
+                <article class="services-card">
+                    <div class="services-card-icon"><i class="fa fa-globe"></i></div>
+                    <h3>Mobile apps</h3>
+                    <p class="partes-txt-desc">Pies sobre globo y serpiente: María nos ayuda con el combate contra el mal</p>
+                </article>
+                <article class="services-card">
+                    <div class="services-card-icon"><i class="fa fa-rocket"></i></div>
+                    <h3>Branding</h3>
+                    <p class="partes-txt-desc">Letra M con la Cruz: María y la cruz de Cristo se entralazan como signo de unión</p>
+                </article>
+                <article class="services-card">
+                    <div class="services-card-icon"><i class="fa fa-shopping-bag"></i></div>
+                    <h3>Marketing</h3>
+                    <p class="partes-txt-desc">Dos corazones: El de Cristo (con espinas) y el de María (atravesado por una espada)</p>
+                </article>
+                <article class="services-card">
+                    <div class="services-card-icon"><i class="fa fa-camera"></i></div>
+                    <h3>Fotografía</h3>
+                    <p class="partes-txt-desc">Doce estrellas: 12 apóstoles: representan la iglesia</p>
+                </article>
+            </div>
+        </section>
+        <section class="s-equipo">
+            <div class="btn-go-left">
+                <i class="fa fa-arrow-left"></i>
+            </div>
+            <div class="equipo-container">
+                <div class="equipo-avatar">
+                    <img src="assets/images/medalla_icon2.png">
+                </div>
+                <div class="equipo-txt-desc">
+                    <h4>John Smith</h4>
+                    <h6>Web designer</h6>
+                    <br/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quaerat quae facere fugiat autem, corrupti quod? Vel excepturi hic asperiores, facere fuga illo voluptates ducimus libero. Aliquam eum ducimus doloremque?</p>
+                </div>
+                <div class="equipo-social-ico">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="btn-go-right">
+                <i class="fa fa-arrow-right"></i>
+            </div>
+        </section>
+        <section class="s-portfolio">
+            <h2>Portafolio</h2>
+            <div class="portfolio-filter">
+                <ul class="portfolio-filter-menu">
+                    <li><a href="#"><i class="fa fa-mobile"></i><span class="portfolio-filter-menu-txt"> Mobile apps</span></a></li>
+                    <li><a class="selected" href="#"><i class="fa fa-globe"></i><span class="portfolio-filter-menu-txt"> Ecommerce</span></a></li>
+                    <li><a href="#"><i class="fa fa-thumbs-up"></i><span class="portfolio-filter-menu-txt"> Responsive web design</span></a></li>
+                    <li><a href="#"><i class="fa fa-adjust"></i><span class="portfolio-filter-menu-txt"> UX/UI</span></a></li>
+                </ul>
+            </div>
+            <div class="portfolio-data">
+                <img src="assets/images/mobile-1.jpg">
+                <div class="portfolio-container">
+                    <div class="portfolio-avatar">
+                        <img src="assets/images/ecommerce_1.png">
+                    </div>
+                    <div class="portfolio-txt-desc">
+                        <h4>Ecommerce pack</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quaerat quae facere fugiat autem, corrupti quod? Vel excepturi hic asperiores, facere fuga illo voluptates ducimus libero. Aliquam eum ducimus doloremque?</p>
+                    </div>
+                    <div class="portfolio-cta">
+                        <a class="btn-border" href="#">Solicitar presupuesto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="f-col-1">
+                <h4>Nuestra oficina</h4>
+                <div class="f-map">
+                    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                        var setting = {"query":"Bogotá, Bogota, Colombia","width":300,"height":200,"satellite":false,"zoom":12,"placeId":"ChIJKcumLf2bP44RFDmjIFVjnSM","cid":"0x239d635520a33914","coords":[4.710988599999999,-74.072092],"lang":"en","queryString":"Bogotá, Bogota, Colombia","centerCoord":[4.710988599999999,-74.072092],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1033373"};
+                        var d = document;
+                        var s = d.createElement('script');
+                        s.src = 'https://1map.com/js/script-for-user.js?embed_id=1033373';
+                        s.async = true;
+                        s.onload = function (e) {
+                        window.OneMap.initMap(setting)
+                        };
+                        var to = d.getElementsByTagName('script')[0];
+                        to.parentNode.insertBefore(s, to);
+                    })();</script><a href="https://1map.com/map-embed">1 Map</a></div>
+                </div>
+                <p>Calle falsa 12 - 3</p>
+            </div>
+            <div class="f-col-2">
+                <h4>Escríbenos</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia reiciendis natus, qui adipisci, voluptate tenetur magnam sequi quibusdam nulla obcaecati sunt itaque.</p>
+                <p><a href="#">circular@example.com</a></p>
+            </div>
+            <div class="f-col-3">
+                <h4>Suscríbete</h4>
+                <div class="f-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <input class="f-input" type="text" placeholder="Correo electrónico" />
+                <a class="f-btn-border-cta" href="#">Suscribir</a>
+            </div>
+        </section>
+        <section class="section-powered-by">
+            <p>Powered by <a href="../../personalCV/index.html">Jonnathan Cruz</a></p>
+            <div class="txt-small">
+                <p>Inspired by <a href="https://i.pinimg.com/564x/51/13/db/5113dba2b2a1235ce82fdc27ba3e1769.jpg">Circular template</a></p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
