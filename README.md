@@ -30,6 +30,11 @@ Explora los estilos css en herramientas para desarrollador del navegador para vi
 
 <img align="center" src="assets/images/screenshots/screenshot_4.png" alt="drawing" width="500"/>
 
+## Licencia
+
+Este código se distribuye bajo licencia GPLv3.
+
+
 ## Créditos
 
 ### Tutoriales:
@@ -51,10 +56,5 @@ https://i.pinimg.com/564x/51/13/db/5113dba2b2a1235ce82fdc27ba3e1769.jpg
 - Imagen de <a href="https://www.flaticon.com/free-icons/smart-cart" title="smart cart icons"> Flat Icons </a> en Flaticon
 
 - Imagen de <a href="https://basilicalamilagrosa.es/wp-content/uploads/2021/06/medalla1-219x300.png" title="smart cart icons"> Basílica La Milagrosa </a> en <a href="https://basilicalamilagrosa.es/">Basílica La Milagrosa</a>
-
-## Licencia
-
-Este código se distribuye bajo licencia GPLv3.
-
 
 
