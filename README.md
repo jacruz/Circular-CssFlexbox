@@ -4,9 +4,9 @@
 
 Estudio personal en HTML y hojas de estilo CSS. Busco convertir la investigación en landing pages de sitios ficticios inpirados en el moodboard 'Dev' en mi [<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Pinterest_colored_svg-512.png" alt="drawing" width="15"/> Pinterest](https://pin.it/5y19mMg), el cual alimento y refresco contínuamente. En esta ocasión la exploración corresponde al layout Flexbox.
 
-Aquí puedes explorar la [Demo funcional](https://jonnathan-cruz.000webhostapp.com/portfolio/Circular-CssFlexbox/index.html).
+Aquí puedes explorar la [Demo funcional](https://jonnathan.site/portfolio/Circular-CssFlexbox/index.html).
  
-Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan-cruz.000webhostapp.com) -> Ready to Roll Out! <img src="assets/images/smart-glasses.png" alt="geek" width="20"/>
+Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan.site) -> Ready to Roll Out! <img src="assets/images/smart-glasses.png" alt="geek" width="20"/>
 
 ## Instalación
 
